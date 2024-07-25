@@ -1,0 +1,58 @@
+<?php
+
+/*função para ler os dados do usuário, ainda não entendi 
+bem o que é trim, fgets e STDIN mas meu pai disse que o 
+código vai ficar mais fácil assim #socorro*/
+
+function lerDado($dado) {
+    echo $dado . ": ";
+    return trim(fgets(STDIN));
+}
+
+/*pergunta ao usuário quantos livros ele deseja
+adicionar. na atividade, pedia ao menos três enti
+dades, então o usuário consequentemente deveria 
+pedir três ou mais entidades... né?*/
+
+echo "Quantos livros você quer adicionar? ";
+$numeroDeLivros = (int)trim(fgets(STDIN));
+
+/*inicia a matriz pra nao esquecer depois amém*/
+
+$matrizLivros = [];
+
+/*aqui inicia um loop pra pegar todos os dados de
+cada livro*/
+
+for ($i = 0; $i < $numeroDeLivros; $i++) {
+    echo "\nLivro " . ($i + 1) . ":\n";
+    $autor = lerDado("Autor");
+    $titulo = lerDado("Título");
+    $genero = lerDado("Gênero");
+    $dataDeLancamento = lerDado("Data de lançamento");
+
+/*aqui é criado um array associativo com os dados 
+dos livros coletados anteriormente*/
+
+    $livro = [
+        "Autor" => $autor,
+        "Titulo" => $titulo,
+        "Genero" => $genero,
+        "Data de lançamento" => $dataDeLancamento
+    ];
+
+/*finalmente adiciona os arrays à uma matriz!!!!*/
+
+    $matrizLivros[] = $livro;
+}
+
+/*e por último, vai mostrar o resultado da coleta 
+dos dados!!!!! pensei em usar o implode como a rebeca 
+disse, mas minha cabeça não tá aguentando mais coisa*/
+
+
+echo ("\nDados dos livros:\n");
+foreach ($matrizLivros as $livro) {
+    echo $livro["Autor"] . " | " . $livro["Titulo"] . " | " . $livro["Genero"] . " | " . $livro["Data de lançamento"] . "\n";
+}
+
