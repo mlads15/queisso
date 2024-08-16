@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome da Cantora Sertaneja</title>
+    <title>Flavinha Martins</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <style>
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
-            transition: background-color 0.5s ease, color 0.5s ease; /* Transição suave ao trocar de página */
+            transition: background-color 0.5s ease, color 0.5s ease; /*transição suave ao trocar de página*/
         }
         header {
             background-color: #8B0000;
@@ -19,7 +23,7 @@
             padding: 20px;
             text-align: center;
             opacity: 0;
-            transition: opacity 1s ease; /* Transição suave ao carregar a página */
+            transition: opacity 1s ease; /*transição suave para quamdo a página for carregada*/
         }
         nav {
             background-color: #DC143C;
@@ -34,10 +38,10 @@
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s ease; /* Transição suave para a cor dos links */
+            transition: color 0.3s ease; /*transição suave que muda a cor dos links*/
         }
         nav a:hover {
-            color: #FFD700; /* Cor diferente ao passar o mouse */
+            color: #FFD700; /*cor diferente quando passa o mouse por cima :p*/
         }
         section {
             padding: 20px;
@@ -45,9 +49,9 @@
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             opacity: 0;
-            transition: opacity 1s ease; /* Transição suave ao carregar a página */
+            transition: opacity 1s ease; /*transição suave pra quando a página for carregada*/
         }
-        /* Estilo específico para a HomePage */
+        /*boniteza só da HomePage*/
         #homepage {
             background-image: url('URL_DA_SUA_IMAGEM.jpg');
             background-size: cover;
@@ -56,7 +60,7 @@
             padding: 100px 20px;
             text-align: center;
         }
-        /* Estilo para as outras páginas */
+        /*boniteza das outras páginas*/
         section:not(#homepage) {
             background-color: #2F4F4F;
             color: white;
@@ -68,7 +72,7 @@
             padding: 10px;
             margin-top: 20px;
             opacity: 0;
-            transition: opacity 1s ease; /* Transição suave ao carregar a página */
+            transition: opacity 1s ease; /*transição suave ao carregar a página*/
         }
         form {
             display: flex;
@@ -82,10 +86,10 @@
             margin-bottom: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
-            transition: border-color 0.3s ease; /* Transição suave para os campos do formulário */
+            transition: border-color 0.3s ease; /*transição suave para os campos do formulário*/
         }
         form input:focus, form textarea:focus {
-            border-color: #DC143C; /* Muda a cor da borda ao focar */
+            border-color: #DC143C; /*muda a cor da borda ao focar*/
         }
         form button {
             padding: 10px;
@@ -94,60 +98,98 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: transform 0.3s ease, background-color 0.3s ease; /* Transição suave para o botão */
+            transition: transform 0.3s ease, background-color 0.3s ease; /*transição suave pra o botão*/
         }
         form button:hover {
             background-color: #B22222;
-            transform: scale(1.05); /* Leve expansão ao passar o mouse */
+            transform: scale(1.05); /*aumenta quando passa o mouse hehehehe*/
         }
 
-        /* Efetua a transição da opacidade ao carregar a página */
+        /*transição da opacidade quando a página carrega*/
         body.loaded header,
         body.loaded section,
         body.loaded footer {
             opacity: 1;
         }
     </style>
+
 </head>
+
 <body>
 
     <header>
-        <h1>Nome da Cantora Sertaneja</h1>
+
+        <h1>Flavinha Martins</h1>
+
     </header>
 
     <nav>
+
         <a href="#homepage">Home</a>
         <a href="#historia">História</a>
         <a href="#discografia">Discografia</a>
         <a href="#album">Álbum de Fotos</a>
         <a href="#letras">Letra de Música</a>
         <a href="#contato">Contato</a>
+
     </nav>
 
     <section id="homepage">
+
         <h2>HomePage</h2>
-        <p>Bem-vindo ao site oficial da cantora sertaneja! Aqui você encontrará todas as informações sobre sua carreira, músicas, álbuns e muito mais.</p>
+        <p>Bem-vindo ao site oficial da cantora sertaneja Flavinha Martins! Aqui você encontrará todas as informações sobre sua carreira, músicas, álbuns e muito mais.</p>
+
     </section>
 
     <section id="historia">
         <h2>História</h2>
-        <p>Conheça a trajetória da cantora, desde os primeiros passos na música até o sucesso nos palcos de todo o Brasil.</p>
+        <p>Conheça a trajetória da cantora, desde os primeiros passos na música até o sucesso nos palcos de todo o Brasil.
+
+Flávia Martins, conhecida artisticamente como "Flavinha Martins", nasceu em uma família humilde em Belo Horizonte, Minas Gerais.
+Desde cedo, ela demonstrou uma paixão intensa pela música. Criada em um bairro periférico, seu primeiro contato com a música sertaneja aconteceu 
+ainda criança, ouvindo clássicos do rádio e cantando com seu pai durante as viagens ao interior para visitar familiares. As canções falavam de 
+amores, desafios da vida no campo e da vida simples, e logo ela percebeu que queria seguir esse caminho.
+
+Na adolescência, Flávia enfrentou um dos maiores desafios de sua vida: a descoberta e aceitação de sua identidade de gênero. 
+Em uma sociedade conservadora, a transição foi difícil, mas a música sempre foi seu refúgio. Através das letras e melodias, ela encontrou força 
+e coragem para ser quem realmente era.
+
+Aos 18 anos, decidiu mudar-se para São Paulo em busca de oportunidades. Começou cantando em bares e pequenas casas de shows, sempre com sua 
+inseparável viola. Foi em uma dessas noites que um produtor musical a descobriu. Impressionado com sua voz poderosa e sua presença de palco, 
+decidiu apostar em seu talento.
+
+Seu primeiro álbum, intitulado Renascida, foi um sucesso imediato, misturando o sertanejo tradicional com letras profundas que abordavam temas 
+de aceitação, amor e a jornada pessoal de Flávia. As músicas tocavam diretamente o coração de muitos, especialmente da comunidade LGBTQIA+, que 
+via em Flávia uma representação poderosa.
+
+Com o passar dos anos, Flávia Martins se consolidou como uma das grandes vozes do sertanejo contemporâneo. Além de sua música, tornou-se uma ativista 
+pelos direitos trans, usando sua plataforma para lutar por inclusão e respeito. Ela se apresentou nos maiores palcos do Brasil e conquistou diversos 
+prêmios, incluindo o "Melhor Álbum Sertanejo" no Prêmio da Música Brasileira.
+
+Hoje, Flávia é um ícone, não apenas no mundo da música, mas também como símbolo de resistência e coragem. Sua história inspira milhares de pessoas a 
+acreditarem em si mesmas e a seguirem seus sonhos, independentemente dos obstáculos que possam enfrentar.</p>
+
     </section>
 
     <section id="discografia">
         <h2>Discografia</h2>
         <p>Explore todos os álbuns e singles lançados pela cantora ao longo de sua carreira, com detalhes sobre cada lançamento.</p>
+
     </section>
 
     <section id="album">
+
         <h2>Álbum de Fotos</h2>
         <p>Confira as fotos mais recentes das apresentações ao vivo, bastidores e momentos marcantes da carreira da cantora.</p>
+
     </section>
 
     <section id="letras">
+
         <h2>Letra de Música</h2>
         <h3>Nome da Música Fictícia</h3>
         <p>
+
             Verso 1: <br>
             Aqui começa a letra da música fictícia, <br>
             Com versos que falam de amor e paixão. <br>
@@ -155,12 +197,16 @@
             Refrão: <br>
             Aquele refrão que gruda na cabeça, <br>
             E faz todo mundo cantar junto no show.
+
         </p>
+
     </section>
 
     <section id="contato">
+
         <h2>Contato</h2>
         <form action="#" method="post">
+
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
 
@@ -171,19 +217,27 @@
             <textarea id="message" name="message" rows="4" required></textarea>
 
             <button type="submit">Enviar</button>
+
         </form>
+
     </section>
 
     <footer>
-        <p>&copy; 2024 Nome da Cantora Sertaneja. Todos os direitos reservados.</p>
+
+        <p>&copy; 2024 Flavinha Martins. Todos os direitos reservados.</p>
+
     </footer>
 
+
     <script>
-        // Adiciona a classe "loaded" ao body após o carregamento para ativar as transições
+
+        //deve adicionar a classe "loaded" ao body depois do carregamento pra ativar as transições
         window.addEventListener('load', function() {
             document.body.classList.add('loaded');
         });
+
     </script>
 
 </body>
+
 </html>
